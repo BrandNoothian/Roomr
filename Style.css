@@ -1,0 +1,47 @@
+*
+{
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.4em;
+}
+h1
+{
+    color: white;
+    background-image: linear-gradient(to right,#ff66ff,#ff3399);
+    padding: 1.5%;
+}
+form
+{
+    display: block;
+    white-space: pre;
+    text: 10px;
+}
+.full-container
+{
+    border: 1px solid black;
+    margin: 100px;
+    padding: 10px;
+}
+input[type=text], input[type=password] 
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+}
+button 
+{
+    background-color: #ff00bf;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover 
+{
+    opacity: 0.8;
+}
